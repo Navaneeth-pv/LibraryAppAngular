@@ -8,6 +8,7 @@ import { UserloginComponent } from './userlogin/userlogin.component';
 import { UserregComponent } from './userreg/userreg.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { BookentryComponent } from './bookentry/bookentry.component';
 
 const myRoute:Routes=[
 
@@ -32,6 +33,7 @@ const myRoute:Routes=[
     AdminloginComponent,
     UserloginComponent,
     UserregComponent,
+    BookentryComponent,
    
   ],
   imports: [
